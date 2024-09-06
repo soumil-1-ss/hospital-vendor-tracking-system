@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('register.jpg');
+    background-size: cover;
+}
+
+.registration-container {
+    background-color: #d3d0d0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.253);
+    width: 400px; 
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+input:hover {
+    background-color: rgb(219, 209, 209);
+    color: black;
+}
+
+#button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(42, 167, 167);
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+#cross {
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+}

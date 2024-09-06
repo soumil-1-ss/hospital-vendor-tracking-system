@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    color: #d79c22;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #199550;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logb {
+    background-color: #f7b825;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #111;
+}
+
+.hero {
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 250px 0;
+    background-image: url("7283494.jpg"); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh; /* Fill the viewport vertically */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f7b825;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.explore {
+    display: block;
+    margin: 20px auto;
+    background-color: #f7b825;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.explore:hover {
+    background-color: #d79c22;
+}

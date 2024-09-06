@@ -1,0 +1,47 @@
+/* Your existing CSS styles */
+
+.add-product-form {
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(187, 197, 183);
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+#back{
+    background-color: #e0f7fa ;
+}
+#cancel {
+    background-color: #da3b3b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #111;
+    width: 3%;
+    text-decoration: none;
+
+}

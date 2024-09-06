@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackPharma - Add Product</title>
+    <link rel="stylesheet" href="pstyle.css">
+</head>
+<body>
+    <main id="back">
+        <section class="add-product-form">
+            <h1>Add Product</h1>
+
+            <form>
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" name="product-name" required>
+
+                <label for="product-type">Product Type:</label>
+                <select id="product-type" name="product-type">
+                    <option value="individual">Individual</option>
+                    <option value="bulk">Bulk</option>
+                </select>
+
+                <label for="product-image">Product Image:</label>
+                <input type="file" id="product-image" name="product-image">
+
+                <label for="product-qr">Product QR:</label>
+                <input type="text" id="product-qr" name="product-qr">
+
+                <h3>General Information</h3>
+
+                <label for="type">Type:</label>
+                <input type="text" id="type" name="type">
+
+                <label for="mfg-date">MFG Date:</label>
+                <input type="date" id="mfg-date" name="mfg-date">
+
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="date" id="expiry-date" name="expiry-date">
+
+                <label for="composition">Composition:</label>
+                <textarea id="composition" name="composition"></textarea>
+
+                <button type="submit">Save</button>
+                <a href="vendor.html" id="cancel">cancel</a>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
